@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 ServiceApp", "1.0 ServiceApp", "{239FF845-C896-424A-8CEA-4355EB70B570}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 BusinessLayer", "2.0 BusinessLayer", "{E867BDEE-BBC3-4088-8CBC-D7199CCB2588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 DataAccess", "3.0 DataAccess", "{C1C26B92-ADCB-43BD-AF1A-8DB2D2247FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Common", "4.0 Common", "{314DFBDB-66F8-45CD-8D8F-32D0E73A3A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEPERU.Scheduler.Common", "OEPERU.Scheduler.Common\OEPERU.Scheduler.Common.csproj", "{113D8727-B668-489F-80EE-AF15D1922312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEPERU.Scheduler.DataAccess", "OEPERU.Scheduler.DataAccess\OEPERU.Scheduler.DataAccess.csproj", "{925D6B84-2272-4937-883A-D72A9AAB4551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEPERU.Scheduler.BusinessLayer", "OEPERU.Scheduler.BusinessLayer\OEPERU.Scheduler.BusinessLayer.csproj", "{E5FEBC4E-19CC-42B9-84B6-E279065126BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEPERU.Scheduler.ServiceApp", "SolOEPERU.Scheduler.ServiceApp\OEPERU.Scheduler.ServiceApp.csproj", "{24E2665E-923E-49E4-9657-2766017AF3B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{113D8727-B668-489F-80EE-AF15D1922312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113D8727-B668-489F-80EE-AF15D1922312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113D8727-B668-489F-80EE-AF15D1922312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113D8727-B668-489F-80EE-AF15D1922312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925D6B84-2272-4937-883A-D72A9AAB4551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925D6B84-2272-4937-883A-D72A9AAB4551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925D6B84-2272-4937-883A-D72A9AAB4551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925D6B84-2272-4937-883A-D72A9AAB4551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FEBC4E-19CC-42B9-84B6-E279065126BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FEBC4E-19CC-42B9-84B6-E279065126BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FEBC4E-19CC-42B9-84B6-E279065126BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FEBC4E-19CC-42B9-84B6-E279065126BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E2665E-923E-49E4-9657-2766017AF3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E2665E-923E-49E4-9657-2766017AF3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E2665E-923E-49E4-9657-2766017AF3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E2665E-923E-49E4-9657-2766017AF3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{113D8727-B668-489F-80EE-AF15D1922312} = {314DFBDB-66F8-45CD-8D8F-32D0E73A3A58}
+		{925D6B84-2272-4937-883A-D72A9AAB4551} = {C1C26B92-ADCB-43BD-AF1A-8DB2D2247FCF}
+		{E5FEBC4E-19CC-42B9-84B6-E279065126BA} = {E867BDEE-BBC3-4088-8CBC-D7199CCB2588}
+		{24E2665E-923E-49E4-9657-2766017AF3B8} = {239FF845-C896-424A-8CEA-4355EB70B570}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAF852E1-BC6B-43D2-802A-860B6BA49C29}
+	EndGlobalSection
+EndGlobal
